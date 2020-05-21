@@ -8,7 +8,7 @@ The system has 56 units of memory available.
 
 The algorithms being tested are: best fit, first fit, next fit, and worst fit.
 
-Scheduling is to work as follows:
+Scheduling is to work as follows for each algorithm:
 1. Until a task cannot be placed, place the next task in the stream
 2. Increment the time consumed by one.
 3. Decrement time remaining for all tasks in memory by one.
@@ -16,7 +16,7 @@ Scheduling is to work as follows:
 5. Increment the time consumed by the largest time remaining for tasks in memory.
 6. Return the amount of time consumed by the stream
 
-The program runs for 1000 trials and returns the average times obtained in the process. 
+The program runs this scheduling loop for 1000 trials and returns the average times obtained in the process. 
 	
 # Task info stream
 
